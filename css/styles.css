@@ -1,0 +1,307 @@
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+  color: black;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family:'Quicksand', sans-serif;
+  font-size: 2rem;
+  color: #3edbf0;
+
+}
+.alignment{
+  line-height:1.5;
+}
+
+.section-heading {
+
+  line-height: 1.5;
+    padding-top: 50px;
+    text-align: center;
+    color:white;
+}
+.project-heading{
+  color: #02475e;
+}
+.pro-heading{
+  color: black;
+}
+
+.footer-heading{
+  padding-top: 1%;
+}
+/* Containers */
+
+.container-fluid{
+  padding: 7% 9%;
+}
+
+  font-family:'Quicksand', sans-serif;
+
+}
+.about-heading{
+  color: #3edbf0;
+}
+
+.intro{
+
+  display: inline-block;
+  width: 500px;
+  position: relative;
+  bottom:20px;
+  right:50px;
+
+}
+.code-image{
+  display: inline-block;
+  position: relative;
+  left:850px;
+  bottom: 250px;
+  color: #3edbf0;
+}
+.code-image:hover{
+  color:white;
+}
+.about{
+  display: inline-block;
+  width: 600px;
+  text-align: left;
+
+
+}
+.row{
+  display: inline-block;
+padding-top: 3%;
+}
+
+
+.picture{
+  display: inline-block;
+  margin-left: 100px;
+
+}
+
+.my-pic{
+  border-radius: 50%;
+  position: relative;
+  bottom: 90px;
+  right: 20px;
+}
+.btn{
+  padding: 2%;
+  margin-left: 5%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #02475e;
+  color: #fff;
+  padding: 3% 9%;
+
+}
+
+.white-section {
+  background-color: #fff;
+}
+.contact-section{
+  padding:7%;
+}
+.project-section{
+  background-color: #caf7e3;
+  padding-top: 4%;
+
+}
+.edu-section{
+  background-color: #02475e;
+
+}
+.card{
+  display: inline-grid;
+  margin: 4%;
+  width: 180px;
+  height: 390px;
+}
+.card:hover{
+  background-color: #3edbf0;
+
+}
+
+.edu:hover{
+  background-color: #caf7e3;
+}
+.edu:hover h5{
+  color: black;
+}
+.card:hover p{
+
+  color: #02475e;
+}
+.card-body:hover{
+  color: white;
+}
+.card-body:hover{
+  color: white;
+}
+
+.education{
+margin: 50px;
+  display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 3rem;
+
+}
+.cardd{
+  text-align: left;
+  padding: 15% 10%;
+  background-color: white;
+  border-radius: 6%;
+
+}
+.footer{
+  background-color: #caf7e3;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding: 5rem 0 2rem;
+  width:100%;
+  position: relative;
+  right:50px;
+  bottom:90px;
+  background-color: #02475e;
+}
+
+.navbar-brand {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+
+}
+.navbar-brand:hover{
+  color: #3edbf0;
+}
+.nav-item {
+  font-size: 1rem;
+  padding: 2%;
+  width: 100%;
+  position: relative;
+  left: 100px;
+}
+
+.icon-col{
+  background-color: #ffffff;
+}
+.icon-col:hover{
+  background-color: #3edbf0;
+}
+
+.nav-link {
+
+   font-family:'Quicksand', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    width:150px;
+}
+.nav-link:hover{
+  color: #3edbf0;
+}
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.btn-primary{
+  background: #3edbf0;
+
+  border: 2px solid white;
+
+}
+.btn-primary:hover{
+  background: #02475e;
+
+}
+
+/* Title Section */
+
+#title {
+  background-color: #02475e;
+  color: #fff;
+  text-align: left;
+ clip-path: polygon(0 0, 100% 0, 100% 100%,70% 80%, 0 100%);
+  padding: 3% 5% 7%;
+
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+
+
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.email{
+  width:150px;
+  height:150px;
+  margin-top: 5%;
+  margin-bottom: 3%;
+
+}
+
+.fa-linkedin{
+  margin-top: 50px;
+  color: #0e76a8 ;
+}
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+@media(max-width:1024px)
+{
+.about{
+  text-align: center;
+
+}
+.my-pic{
+  position: relative;
+  top:10px;
+}
+.intro{
+  text-align: center;
+  position: relative;
+  right:80px;
+  bottom: 50px;
+}
+.code-image{
+  position: static;
+
+
+}
+}
